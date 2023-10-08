@@ -16,7 +16,7 @@ const SearchManufacturer = ({selected,setSelected}:SearchManufacturerProps) => {
     ))
 
   return (
-    <div className='flex items-center justify-start'>
+    <div className='search-manufacturer'>
         <Combobox value={selected} onChange={setSelected}>
             <div className='relative w-full'>
                 <Combobox.Button className='absolute top-[14px] ml-5'>
